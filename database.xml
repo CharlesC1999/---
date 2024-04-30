@@ -754,4 +754,42 @@
 </key>
 <comment>訂單明細資料表</comment>
 </table>
+<table x="796.52978515625" y="1672.9998779296875" name="orders">
+<row name="Order_ID " null="1" autoincrement="1">
+<datatype>INTEGER</datatype>
+<default>NULL</default><comment>1</comment>
+</row>
+<row name="Member_ID" null="1" autoincrement="0">
+<datatype>INTEGER</datatype>
+<default>NULL</default></row>
+<row name="Order_date" null="1" autoincrement="0">
+<datatype>INTEGER</datatype>
+<default>NULL</default></row>
+<row name="Status" null="1" autoincrement="0">
+<datatype>INTEGER</datatype>
+<default>NULL</default></row>
+<row name="Shipping_address" null="1" autoincrement="0">
+<datatype>INTEGER</datatype>
+<default>NULL</default></row>
+<key type="PRIMARY" name="">
+<part>Order_ID </part>
+</key>
+</table>
+<table x="983.52978515625" y="1671.9998779296875" name="order_item">
+<row name="Order_Item_ID " null="1" autoincrement="1">
+<datatype>INTEGER</datatype>
+<default>NULL</default></row>
+<row name="Order_ID " null="1" autoincrement="0">
+<datatype>INTEGER</datatype>
+<default>NULL</default></row>
+<row name="Product_ID" null="1" autoincrement="0">
+<datatype>INTEGER</datatype>
+<default>NULL</default></row>
+<row name="Quantity" null="1" autoincrement="0">
+<datatype>INTEGER</datatype>
+<default>NULL</default></row>
+<key type="PRIMARY" name="">
+<part>Order_Item_ID </part>
+</key>
+</table>
 </sql>
